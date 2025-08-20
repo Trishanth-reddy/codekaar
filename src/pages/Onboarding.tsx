@@ -55,7 +55,7 @@ export default function Onboarding() {
     });
 
     setLanguage(formData.language);
-    navigate('/dashboard');
+    navigate('/');
   };
 
   const canProceed = () => {
